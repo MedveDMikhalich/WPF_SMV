@@ -1,0 +1,13 @@
+﻿<Application x:Class="WPF_SMV.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_SMV"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <LinearGradientBrush x:Key="BackgroundWindowRecource">
+            <GradientStop Offset="0.00" Color="#ff87A0DE"/>
+            <GradientStop Offset="0.50" Color="Azure"/>
+            <GradientStop Offset="1.00" Color="#ff00fcff"/>
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>
